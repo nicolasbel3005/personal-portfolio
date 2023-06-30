@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Developer Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    #header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    #navigation {
+      background-color: #f4f4f4;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    #work-section {
+      padding: 20px;
+      text-align: center;
+    }
+    
+    #work-section img {
+      width: 200px;
+      height: auto;
+      margin: 10px;
+    }
+    
+    #work-section img: :first-child {
+      width: 300px;
+    }
+    
+    #contact-section {
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+  <script>
+    // Scroll to section smoothly
+    function scrollToSection(sectionId) {
+      const section = document.getElementById(sectionId);
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</head>
+<body>
+  <div id="header">
+    <h1>Developer Portfolio</h1>
+    <p>Name: Nicolas Esquibel</p>
+    <img src="avatar.jpg" alt="Developer Avatar">
+  </div>
+  
+  <div id="navigation">
+    <a href="#" onclick="scrollToSection('about-section')">About</a>
+    <a href="#" onclick="scrollToSection('work-section')">Work</a>
+    <a href="#" onclick="scrollToSection('contact-section')">Contact</a>
+  </div>
+  
+  <div id="about-section">
+    <h2>About</h2>
+    <p>Hello Im Nicolas Esquibel and I am passionate and determined individual who recently embarked on a coding journey by joining a prestigious coding boot camp through UC Davis. I have a strong desire to learn and grow in the world of programming, I have already acquired essential skills in CSS, HTML, and JavaScript. Im extremely enthusiastic for my future in coding and Im dedicated to master these fundamental languages and applying them to create dynamic and engaging web experiences.
+    </p>
+  </div>
+  
+  <div id="work-section">
+    <h2>Work</h2>
+    <a href="https://nicolasbel3005.github.io/semantic/" target="_blank"><img src="app1.jpg" alt="Application 1"></a>
+    <a href="application2.html" target="_blank"><img src="app2.jpg" alt="Application 2"></a>
+    <a href="application3.html" target="_blank"><img src="app3.jpg" alt="Application 3"></a>
+  </div>
+  
+  <div id="contact-section">
+    <h2>Contact</h2>
+    <p>Email: n.m.esquibel01@gmail.com</p>
+    <p>Phone: 530-574-8167</p>
+  </div>
+</body>
+</html>
