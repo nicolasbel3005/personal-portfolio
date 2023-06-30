@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #navigation {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #work-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #work-section img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+  }
+  
+  #work-section img: :first-child {
+    width: 300px;
+  }
+  
+  #contact-section {
+    padding: 20px;
+    text-align: center;
+  }
